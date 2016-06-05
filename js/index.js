@@ -29,13 +29,13 @@ window.onload = function(){
     aLi[1].getElementsByTagName('span')[0].innerHTML = Json.myInfo.work1;
     aLi[2].getElementsByTagName('span')[0].innerHTML = Json.myInfo.time;
     aLi[3].getElementsByTagName('span')[0].innerHTML = Json.myInfo.nature;
-    aLi[4].getElementsByTagName('span')[0].innerHTML = Json.myInfo.sex;
+    aLi[4].getElementsByTagName('span')[0].innerHTML = Json.myInfo.birthday;
     aLi[5].getElementsByTagName('span')[0].innerHTML = Json.myInfo.hopeCity;
     aLi[6].getElementsByTagName('span')[0].innerHTML = Json.myInfo.city;
-    aLi[7].getElementsByTagName('span')[0].innerHTML = Json.myInfo.money;
-    aLi[8].getElementsByTagName('span')[0].innerHTML = Json.myInfo.phone;
-    aLi[9].getElementsByTagName('span')[0].innerHTML = Json.myInfo.ps;
-    aLi[10].getElementsByTagName('span')[0].innerHTML = Json.myInfo.mail;
+    aLi[7].getElementsByTagName('span')[0].innerHTML = Json.myInfo.phone;
+    aLi[8].getElementsByTagName('span')[0].innerHTML = Json.myInfo.ps;
+    aLi[9].getElementsByTagName('span')[0].innerHTML = Json.myInfo.mail;
+    aLi[10].getElementsByTagName('span')[0].innerHTML = Json.myInfo.github;
 
     var oBox = exp.getElementsByTagName('div')[1];
 

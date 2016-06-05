@@ -110,9 +110,9 @@ nav a { color: #00ace3; }
 #skill { margin-bottom: 100px; }
 .skillBox { width: 900px; height: 450px; margin: 16px auto; position: relative; perspective: 600px; transform-style:preserve-3d; -webkit-perspective: 600px; -webkit-transform-style:preserve-3d; }
 
-#skillUl li { position: absolute; width: 900px; height: 450px; position: absolute; left: 0; top: 0; z-index: 10; border: 1px solid  #00b7ee; border-radius: 20px; overflow: hidden; tranform-origin:right; -webkit-tranform-origin:right; background-color: rgba(22,22,39,0.2); padding: 12px 0; visibility: hidden; }
+#skillUl li { position: absolute; width: 900px; height: 450px; position: absolute; left: 0; top: 0; z-index: 10; border: 1px solid  #00b7ee; border-radius: 20px; overflow: hidden; tranform-origin:right; -webkit-tranform-origin:right; background-color: rgba(22,22,39,0.5); padding: 12px 0; visibility: hidden; }
 #skillUl .skillChart { width: 100%; height: 100%;  }
-#skillTable { position: absolute; left: 50%; z-index: 100; bottom: 0px; }
+#skillTable { position: absolute; left: 50%; z-index: 100; bottom: -10px; }
 #skillTable a { float: left; width: 14px; height: 16px; margin: 0 15px; position: relative; left: -50%; background: url("../images/icons/table.png") no-repeat left; opacity: .6;
 } 
 #skillTable a:hover { opacity: 1; }

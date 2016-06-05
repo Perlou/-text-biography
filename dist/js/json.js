@@ -85,10 +85,10 @@ var Json = {
     ],
     work: [
         {
-            company:'js23',
-            job:'234242',
-            date:'343434',
-            detail:'343434',
+            company:'广州华工信息软件有限公司',
+            job:'前端开发工程师',
+            date:'2014.11 － 2016.3',
+            detail:'detail',
             logo:'images/icons/header1.png'
         }
     ],

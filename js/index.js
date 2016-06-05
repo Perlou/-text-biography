@@ -9,6 +9,7 @@ window.onload = function(){
     var exp = document.getElementById('exp');
     var work = document.getElementById('work');
     var backBg = document.getElementById('backBg');
+    var oPop = document.getElementById('pop');
 
     var myInfoChild = myInfo.children;
     var aDiv = myInfoChild[0].getElementsByTagName('div');
@@ -71,14 +72,29 @@ window.onload = function(){
             aLi2[2].getElementsByTagName('a')[0].innerHTML = Json.project[this.index].link;
             aLi2[2].getElementsByTagName('a')[0].href = 'http://' + Json.project[this.index].link;
             aLi2[3].getElementsByTagName('p')[0].innerHTML = Json.project[this.index].detail;
+
             backBg.style.display = 'block';
+
+            setTimeout(function(){
+                oPop.style.opacity = 1;
+                oPop.style.transform = 'translate3d(0,0,0)';
+                oPop.style.webkitTransform = 'translate3d(0,0,0)';
+            },20);
 
         };
 
     }
+
     oClose.onclick = function(){
 
-        backBg.style.display = 'none';
+        oPop.style.opacity = 0;
+        oPop.style.transform = 'translate3d(0,80px,0)';
+        oPop.style.webkitTransform = 'translate3d(0,80px,0)';       
+
+        setTimeout(function(){
+          backBg.style.display = 'none';            
+        },500);
+
 
     };
 
@@ -96,7 +112,7 @@ window.onload = function(){
 };
 
 function Skill(){
-    console.log('skill');
+
     var oSkill = document.getElementById('skill'),
         oSkillUl = document.getElementById('skillUl'),
         oSkillTable = document.getElementById('skillTable'),

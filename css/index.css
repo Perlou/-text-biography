@@ -16,7 +16,7 @@ nav a:hover { color: #fff; text-shadow: 0 0 10px #fff; }
 .myInfoItem li { float: left; width: 230px; height: 26px; font: 14px/26px '微软雅黑,黑体'; color: #299dd4; }
 .myInfoItem span { color: #fff; }
 .myInfoItem a { color: #fff; transition: 0.6s; -webkit-transition: 0.6s; -moz-transition: 0.6s; -ms-transition: 0.6s; }
-.myInfoItem a:hover { color: #299dd4; }
+.myInfoItem a:hover { color: #299dd4; text-shadow: 0 0 10px #299dd4; }
 #exp { width: 900px; margin: 0 auto; }
 .title { width: 262px; height: 86px; margin: 0 auto 72px; background: url("../images/font/title.png") no-repeat center; text-align: center; }
 .title span { display: inline-block; height: 100%; font: 24px/86px '微软雅黑,黑体'; color: #fff; text-shadow: 0 0 8px #fff; }
@@ -95,7 +95,7 @@ nav a:hover { color: #fff; text-shadow: 0 0 10px #fff; }
 .workBox .text dt, .workBox .text dd { background-color: #1b1325; border-left: 1px solid #00ace3; border-right: 1px solid #00ace3; }
 
 #backBg { width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); position: fixed; top: 0; display: none; }
-.pop-top { width: 524px; padding-top: 48px; background: url("../images/font/alert1.png") no-repeat right top; margin: 10% auto; position: relative; }
+.pop-top { width: 524px; padding-top: 48px; background: url("../images/font/alert1.png") no-repeat right top; z-index: 101; position: absolute; left: 50%; top: 20%; margin-left: -262px; transform: translate3d(0,80px,0); transition: 0.5s; opacity: 0 }
 .pop-bottom { width: 100%; padding-bottom: 28px; background: url("../images/font/alert2.png") no-repeat right bottom; }
 .pop { width: 479px; border-left: 1px solid #00a9e0; border-right: 1px solid #00a9e0; background-color: #1b1325; padding: 0 21px 10px 22px; }
 .pop .photo { height: 90px; overflow: hidden; margin-right: -10px; margin-bottom: 10px; }

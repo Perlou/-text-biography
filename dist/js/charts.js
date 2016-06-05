@@ -107,8 +107,6 @@ var lineStyle = {
     }
 };
 
-var options = [];
-
 for(var i in skillData){
     var thisChart = echarts.init(document.getElementById(skillData[i].chartId));
     var obj = {

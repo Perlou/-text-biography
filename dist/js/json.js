@@ -6,18 +6,18 @@
 var Json = {
     project:[
         {
-            name:'粤通卡门户网站',
-            date:'公司项目',
-            detail:'粤通卡',
-            image:['images/photo/1/1.png','images/photo/1/2.png','images/photo/1/3.png','images/photo/1/4.png'],
-            link:'http://www.96533.com/'
-        },
-        {
             name:'华软内刊app',
             date:'公司项目',
             detail:'ionic angularjs',
             image:['images/photo/2/1.png','images/photo/2/2.png','images/photo/2/3.png','images/photo/2/4.png'],
             link:''
+        },
+        {
+            name:'粤通卡门户网站',
+            date:'公司项目',
+            detail:'粤通卡',
+            image:['images/photo/1/1.png','images/photo/1/2.png','images/photo/1/3.png','images/photo/1/4.png'],
+            link:'http://www.96533.com/'
         },
         {
             name:'乐享黔程微信公众号',
@@ -93,22 +93,22 @@ var Json = {
         }
     ],
     myInfo:{
-        name:'钟嘉文',
+        name:'钟嘉文(男)',
         slogan:'前端开发工程师',
         edu:'本科(吉林大学珠海学院)',
         time:'一年半',
-        sex:'男',
+        birthday:'1992.08',
         city:'广州',
         phone:'13726245011',
         mail:'a87387875@163.com',
         work:'前端开发工程师， 广州',
-        work1:'',
-        nature:'',
+        work1:'前端开发工程师',
+        nature:'全职',
         github: '<a target="blank" href="https://github.com/Perlou">https://github.com/Perlou</a>',
         hopeCity:'广州',
-        money:'233333',
+        money:'',
         head:'images/photo/head.jpg',
-        ps:''
+        ps:'移动端，js方向'
     }
 
 };

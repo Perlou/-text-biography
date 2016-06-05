@@ -62,14 +62,14 @@ var Json = {
             link:'perlou.github.io/Diagnosite'
         },
         {
-            name:'Diagnosite',
+            name:'React图片画廊',
             date:'个人项目',
             detail:'Dia',
             image:['images/photo/9/1.png','images/photo/9/2.png','images/photo/9/3.png','images/photo/9/4.png'],
-            link:'perlou.github.io/Diagnosite'
+            link:'perlou.github.io/gallary-by-react'
         },
         {
-            name:'Diagnosite',
+            name:'微信场景',
             date:'个人项目',
             detail:'Dia',
             image:['images/photo/10/1.png','images/photo/10/2.png','images/photo/10/3.png','images/photo/10/4.png'],

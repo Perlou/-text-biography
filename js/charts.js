@@ -50,7 +50,7 @@ var skillData = {
             value: [4,4,4,4,4,4,5,5],
             name: '技能评分'            
         }],
-        title: '前端开发相关技能',
+        title: '前端框架/库',
         indicator: [
             {name: 'html+css页面布局(pc端/移动端)', max: 5},
             {name: 'javascript', max: 5},

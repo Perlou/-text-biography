@@ -76,7 +76,7 @@ var Json = {
             link:'perlou.github.io/Diagnosite'
         },
         {
-            name:'Diagnosite',
+            name:'100du',
             date:'个人项目',
             detail:'Dia',
             image:['images/photo/11/1.png','images/photo/11/2.png','images/photo/11/3.png','images/photo/11/4.png'],

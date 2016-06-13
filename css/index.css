@@ -8,7 +8,7 @@ nav a { color: #00ace3;  transition: 0.6s; -webkit-transition: 0.6s; -moz-transi
 nav a:hover { color: #fff; text-shadow: 0 0 10px #fff; }
 #myInfo { width: 610px; margin: 60px auto 0; }
 #myInfo .head { padding: 9px; width: 104px; height: 104px; background: url("../images/font/circle1.png") no-repeat left top; margin: 0 auto; }
-#myInfo .head img { width: 96px; height: 96px; border-radius: 52px; border: 4px solid #29abe2;  }
+#myInfo .head img { width: 96px; height: 96px; border-radius: 52px; border: 4px solid #29abe2; background-color: #ececec; }
 #myInfo .name { width: 100%; text-align: center; padding-bottom: 12px; }
 #myInfo .name h3 { height: 50px; font: 32px/50px '微软雅黑,黑体'; color: #fff; }
 #myInfo .name p { font: 14px/1 '微软雅黑,黑体'; color: #299dd4; }
@@ -17,14 +17,14 @@ nav a:hover { color: #fff; text-shadow: 0 0 10px #fff; }
 .myInfoItem span { color: #fff; }
 .myInfoItem a { color: #fff; transition: 0.6s; -webkit-transition: 0.6s; -moz-transition: 0.6s; -ms-transition: 0.6s; }
 .myInfoItem a:hover { color: #299dd4; text-shadow: 0 0 10px #299dd4; }
-#exp { width: 900px; margin: 0 auto; }
+#exp { width: 920px; margin: 0 auto; }
 .title { width: 262px; height: 86px; margin: 0 auto 72px; background: url("../images/font/title.png") no-repeat center; text-align: center; }
 .title span { display: inline-block; height: 100%; font: 24px/86px '微软雅黑,黑体'; color: #fff; text-shadow: 0 0 8px #fff; }
 #exp .box { max-width: 100%; text-align: center; font-size: 0; }
-.box .item { display: inline-block; width: 196px; height: 275px; margin: 0 50px; cursor: pointer; }
+.box .item { display: inline-block; width: 202px; height: 275px; margin: 0 50px; cursor: pointer; }
 .box .img { width: 176px; height: 176px; margin: 0 0 9px 12px; }
 .box .img .circle { width: 176px; height: 176px; background: url("../images/font/circle2.png") no-repeat center; background-size: cover; margin-bottom: -176px; -webkit-transition: all .2s linear; transition: all .2s linear; -webkit-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg); }
-.box .img .photo { width: 160px; height: 160px; overflow: hidden; border-radius: 50%; margin: 8px; background-color: red; position: relative; }
+.box .img .photo { width: 160px; height: 160px; overflow: hidden; border-radius: 50%; margin: 8px; background-color: #fff; position: relative; }
 .box .img img { width: 160px; }
 .box .img .shadow { width: 160px; height: 160px; border-radius: 50%; box-shadow:0 0 30px 10px #0bb inset; position: absolute; top: 0; opacity: 0; transition: all .1s linear; }
 .box .img:hover .shadow { opacity: 1; }

@@ -15,9 +15,9 @@ var Json = {
         {
             name:'粤通卡门户网站',
             date:'公司项目',
-            detail:'粤通卡',
+            detail:'粤通卡门户网站',
             image:['images/photo/1/1.png','images/photo/1/2.png','images/photo/1/3.png','images/photo/1/4.png'],
-            link:'http://www.96533.com/'
+            link:'www.96533.com'
         },
         {
             name:'乐享黔程微信公众号',
@@ -45,7 +45,8 @@ var Json = {
             date:'个人项目',
             detail:'h5',
             image:['images/photo/6/1.png','images/photo/6/2.png','images/photo/6/3.png','images/photo/6/4.png'],
-            link:'perlou.github.io/MonsterGame'
+            link:'perlou.github.io/MonsterGame',
+            ecode:'images/photo/6/ecode.png'
         },
         {
             name:'Diagnosite',
@@ -55,31 +56,38 @@ var Json = {
             link:'perlou.github.io/Diagnosite'
         },
         {
-            name:'贵州电子支付网',
+            name:'贵州电子收费网站',
             date:'个人项目',
             detail:'Dia',
             image:['images/photo/8/1.png','images/photo/8/2.png','images/photo/8/3.png','images/photo/8/4.png'],
-            link:'perlou.github.io/Diagnosite'
+            link:'www.gzetc12122.cn'
+        },
+        {
+            name:'中国高速公路运营管理网',
+            date:'个人项目',
+            detail:'Dia',
+            image:['images/photo/9/1.png','images/photo/9/2.png','images/photo/9/3.png','images/photo/9/4.png'],
+            link:'www.tollroad.com.cn'
         },
         {
             name:'React图片画廊',
             date:'个人项目',
             detail:'Dia',
-            image:['images/photo/9/1.png','images/photo/9/2.png','images/photo/9/3.png','images/photo/9/4.png'],
+            image:['images/photo/10/1.png','images/photo/10/2.png','images/photo/10/3.png','images/photo/10/4.png'],
             link:'perlou.github.io/gallary-by-react'
         },
         {
             name:'微信场景',
             date:'个人项目',
             detail:'Dia',
-            image:['images/photo/10/1.png','images/photo/10/2.png','images/photo/10/3.png','images/photo/10/4.png'],
+            image:['images/photo/11/1.png','images/photo/11/2.png','images/photo/11/3.png','images/photo/11/4.png'],
             link:'perlou.github.io/Diagnosite'
         },
         {
-            name:'100du',
+            name:'移动端3D场景',
             date:'个人项目',
             detail:'Dia',
-            image:['images/photo/11/1.png','images/photo/11/2.png','images/photo/11/3.png','images/photo/11/4.png'],
+            image:['images/photo/12/1.png','images/photo/12/2.png','images/photo/12/3.png','images/photo/12/4.png'],
             link:'perlou.github.io/Diagnosite'
         }
     ],
@@ -107,7 +115,7 @@ var Json = {
         github: '<a target="blank" href="https://github.com/Perlou">https://github.com/Perlou</a>',
         hopeCity:'广州',
         money:'',
-        head:'images/photo/head.jpg',
+        head:'images/photo/head.png',
         ps:'移动端，js方向'
     }
 

@@ -11,7 +11,7 @@ var skillData = {
     feskill: { 
         chartId: 'feSkillChart',
         data: [{
-            value: [4,4,4,4,4,4,5,5],
+            value: [4.5,4.5,4,4,4,3.5,3.5,4],
             name: '技能评分'            
         }],
         title: '前端开发相关技能',
@@ -29,7 +29,7 @@ var skillData = {
     fefskill: { 
         chartId: 'fefSkillChart',
         data: [{
-            value: [4,4,5,4,5,4,4,5],
+            value: [4.5,4,3.5,3,4,3.5,4,3.5,4],
             name: '技能评分'            
         }],
         title: '前端框架/库',
@@ -48,7 +48,7 @@ var skillData = {
     fetskill: { 
         chartId: 'fetSkillChart',
         data: [{
-            value: [4,4,4,4,4,4,5],
+            value: [3.5,3.5,3,3,4,4,3],
             name: '技能评分'            
         }],
         title: '前端开发工具',
@@ -65,7 +65,7 @@ var skillData = {
     beskill: { 
         chartId: 'beSkillChart',
         data: [{
-            value: [4,4,4,4,4,4],
+            value: [3.5,2.5,2.5,3,2.5,2],
             name: '技能评分'            
         }],
         title: '后端开发相关技能',
@@ -81,17 +81,20 @@ var skillData = {
     otherskill: { 
         chartId: 'otherSkillChart',
         data: [{
-            value: [4,4,4,4,4,4,5,5],
+            value: [2.5,3,3,3,3,4,3,2,2],
             name: '技能评分'            
         }],
-        title: '前端开发相关技能',
+        title: '其他技能',
         indicator: [
             {name: 'react-native', max: 5},
             {name: 'git/github', max: 5},
             {name: 'svg', max: 5},
             {name: 'canvas', max: 5},
             {name: 'svn', max: 5},
-            {name: 'codova', max: 5}
+            {name: 'sublime', max: 5},
+            {name: 'ppt', max: 5},
+            {name: 'sql', max: 5},
+            {name: 'codova(phoneGap)', max: 5}
         ] 
     }
 };

@@ -104,7 +104,7 @@ window.onload = function(){
 
         var item = document.createElement('div');
         item.className = 'item';
-        item.innerHTML = '<div class="content"><div class="head"><img src="'+ Json.work[i].logo +'" alt=""/><div class="sta"></div><div class="name"><h4>'+ Json.work[i].company +'</h4><p>'+ Json.work[i].date +'</p></div></div><dl class="text"><dt>34343</dt><dd>'+ Json.work[i].detail +'</dd></dl></div><i></i>';
+        item.innerHTML = '<div class="content"><div class="head"><img src="'+ Json.work[i].logo +'" alt=""/><div class="sta"></div><div class="name"><h4>'+ Json.work[i].company +'</h4><p>'+ Json.work[i].date +'</p></div></div><dl class="text"><dt>前端开发工程师</dt><dd>'+ Json.work[i].detail +'</dd></dl></div><i></i>';
         workBox.appendChild(item);
 
     }

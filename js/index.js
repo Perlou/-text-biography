@@ -10,6 +10,7 @@ window.onload = function(){
     var work = document.getElementById('work');
     var backBg = document.getElementById('backBg');
     var oPop = document.getElementById('pop');
+    var ecode = document.getElementById('ecode');
 
     var myInfoChild = myInfo.children;
     var aDiv = myInfoChild[0].getElementsByTagName('div');
@@ -71,7 +72,16 @@ window.onload = function(){
             aLi2[1].getElementsByTagName('span')[0].innerHTML = Json.project[this.index].date;
             aLi2[2].getElementsByTagName('a')[0].innerHTML = Json.project[this.index].link;
             aLi2[2].getElementsByTagName('a')[0].href = 'http://' + Json.project[this.index].link;
-            aLi2[3].getElementsByTagName('p')[0].innerHTML = Json.project[this.index].detail;
+            aLi2[3].getElementsByTagName('a')[0].innerHTML = Json.project[this.index].codeSrc;
+            aLi2[3].getElementsByTagName('a')[0].href = 'http://' + Json.project[this.index].codeSrc;
+            aLi2[4].getElementsByTagName('p')[0].innerHTML = Json.project[this.index].detail;
+
+            if(Json.project[this.index].ecode !== undefined ){
+                ecode.getElementsByTagName('img')[0].src = Json.project[this.index].ecode;
+                ecode.style.display = 'block';
+            }else{
+                ecode.style.display = 'none';
+            }
 
             backBg.style.display = 'block';
 
